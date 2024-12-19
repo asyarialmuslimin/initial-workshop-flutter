@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="/Volumes/DevData/project/hello_world/android/app"
+    name=":app"
+    type="APP"
+    maven="android:app:unspecified"
+    agpVersion="8.7.0"
+    buildFolder="/Volumes/DevData/project/hello_world/build/app"
+    bootClassPath="/Volumes/DevData/SDK/AndroidSDK/platforms/android-34/android.jar:/Volumes/DevData/SDK/AndroidSDK/build-tools/34.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="17"
+    compileTarget="android-34">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

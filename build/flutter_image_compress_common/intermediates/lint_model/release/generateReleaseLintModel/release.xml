@@ -1,0 +1,31 @@
+<variant
+    name="release"
+    package="com.fluttercandies.flutter_image_compress"
+    minSdkVersion="21"
+    targetSdkVersion="21"
+    mergedManifest="/Volumes/DevData/project/hello_world/build/flutter_image_compress_common/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml"
+    manifestMergeReport="/Volumes/DevData/project/hello_world/build/flutter_image_compress_common/outputs/logs/manifest-merger-release-report.txt"
+    proguardFiles="/Volumes/DevData/project/hello_world/build/flutter_image_compress_common/intermediates/default_proguard_files/global/proguard-android.txt-8.7.0"
+    partialResultsDir="/Volumes/DevData/project/hello_world/build/flutter_image_compress_common/intermediates/lint_partial_results/release/lintAnalyzeRelease/out">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/main/kotlin:src/release/java:src/release/kotlin"
+        resDirectories="src/main/res:src/release/res"
+        assetsDirectories="src/main/assets:src/release/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <artifact
+      classOutputs="/Volumes/DevData/project/hello_world/build/flutter_image_compress_common/intermediates/javac/release/compileReleaseJavaWithJavac/classes:/Volumes/DevData/project/hello_world/build/flutter_image_compress_common/tmp/kotlin-classes/release:/Volumes/DevData/project/hello_world/build/flutter_image_compress_common/intermediates/compile_r_class_jar/release/generateReleaseRFile/R.jar"
+      type="MAIN"
+      applicationId="com.fluttercandies.flutter_image_compress"
+      generatedSourceFolders="/Volumes/DevData/project/hello_world/build/flutter_image_compress_common/generated/ap_generated_sources/release/out"
+      generatedResourceFolders="/Volumes/DevData/project/hello_world/build/flutter_image_compress_common/generated/res/resValues/release"
+      desugaredMethodsFiles="/Users/saifurridho/.gradle/caches/8.11.1/transforms/c6dcdaa958532b943cb96d444caf950e/transformed/D8BackportedDesugaredMethods.txt">
+  </artifact>
+</variant>
